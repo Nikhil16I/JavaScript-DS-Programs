@@ -4,6 +4,9 @@ for (let index = 0; index < 10; index++) {
     randomNumber[index] = Math.floor(Math.random()*900)+100;   
 }
 
+randomNumber=randomNumber.sort();//Sorting Array
+console.log("Printing Sorted Array ["+randomNumber+"]\n")//Printing Sorted Array
+
 console.log("Random three digit numbers in Array are -["+randomNumber+"]")/*Printing the Numbers*/
 
 /*Finding Second Largest Number from Array*/
